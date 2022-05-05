@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+
+
+.thanhtop {
+  margin: 0;
+  padding-top: 0px;
+  width:100%;
+  background-color: transparent;
+  color: white;
+  font-size:20px;
+  height: 40px;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  z-index:2;
+  
+  
+}
+
+.wy {
+ width: 90%;
+ max-width: 1024px;
+ margin: 0 auto;
+ }
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /*padding-bottom: 56.25%;*/
+    height: 0;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+<body style="background-color:#000;">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:0px;font-weight:regular;right:0px;" id="mySidebar"><br>
+  
+  
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class=" w3-bar-item w3-button w3-hover-white">CLOSE MENU</a> 
+    <a href="#tongquanduan" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Video render Căn hộ</a> 
+    <a href="#thucteduan" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Video thực tế Căn hộ</a> 
+    
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="thanhtop">
+  <a href="javascript:void(0)" class="w3-right w3-button w3-red w3-margin-right" onclick="w3_open()">MENU. ☰</a>
+  
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- start tổng quan dự án -->
+  <div class="w3-container" style="margin-top:80px" id="tongquanduan">    
+    <h5 class="w3-xlarge w3-text-red"><b>Video render Căn hộ</b></h5>
+    <hr style="width:50px;border:1px solid red" class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="wy"><div class="video-wrapper"> <iframe src="https://player.vimeo.com/video/613697472?h=a8e0daa5a8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VIDEO-RENDER.mp4"></iframe> </div></div>
+  </div>
+<!-- stop tổng quan căn hộ -->
+  
+   
+     <!-- start thực tế căn hộ -->
+  <div class="w3-container" style="margin-top:80px" id="thucteduan">    
+    <h5 class="w3-xlarge w3-text-red"><b>Video thực tế Căn hộ</b></h5>
+    <hr style="width:50px;border:1px solid red" class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="wy"><div class="video-wrapper"> <iframe src="https://player.vimeo.com/video/613697665?h=bfb12d308a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VIDEO-THUCTE.mp4"></iframe> </div></div>
+  </div>
+   <!-- stop tổng quan dự án -->
+
+<!-- End page content -->
+</div>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+    document.getElementById("mySidebar").style.width = "300px";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+    document.getElementById("mySidebar").style.width = "0px";
+}
+
+</script>
+
+</body>
+</html>

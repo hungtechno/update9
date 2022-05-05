@@ -1,0 +1,151 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="maudemo11.com" resolutions="1x" timestamp="1645282964567">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="canho-kinh.css" crc="165748611" ref="canho-kinh"/>
+    <file name="matcattang-dnb2.css" crc="4048278651" ref="matcattang-dnb2"/>
+    <file name="hdsd.css" crc="396423380" ref="hdsd"/>
+    <file name="ttda-dnb3.css" crc="49871039" ref="ttda-dnb3"/>
+    <file name="tongquan-sanvandong.css" crc="305865099" ref="tongquan-sanvandong"/>
+    <file name="canho-tuong.css" crc="29535210" ref="canho-tuong"/>
+    <file name="tongquan-tttm.css" crc="312364437" ref="tongquan-tttm"/>
+    <file name="matcattang-dnb1.css" crc="489603232" ref="matcattang-dnb1"/>
+    <file name="index.css" crc="4080860342" ref="index"/>
+    <file name="tongquan-truonghoc.css" crc="4213477857" ref="tongquan-truonghoc"/>
+    <file name="canho-danhmucthietbi.css" crc="4246456382" ref="canho-danhmucthietbi"/>
+    <file name="ttda-dnb2.css" crc="3999770341" ref="ttda-dnb2"/>
+    <file name="canho-bep.css" crc="4233216747" ref="canho-bep"/>
+    <file name="tongquan-duan-x.css" crc="3849276375" ref="tongquan-duan-x"/>
+    <file name="canho-bancong.css" crc="416036664" ref="canho-bancong"/>
+    <file name="tongquan-benhvien.css" crc="173987490" ref="tongquan-benhvien"/>
+    <file name="ttdu-vitri.css" crc="4239031448" ref="ttdu-vitri"/>
+    <file name="ttda-dnb1.css" crc="3870713122" ref="ttda-dnb1"/>
+    <file name="hoboi-dnb1.css" crc="219026364" ref="hoboi-dnb1"/>
+    <file name="hoboi-dnb2.css" crc="215965859" ref="hoboi-dnb2"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:ttdu-vitri:ttda-dnb1:ttda-dnb2:ttda-dnb3:hdsd:tongquan-sanvandong:tongquan-benhvien:tongquan-truonghoc:tongquan-tttm:tongquan-duan-x:matcattang-dnb1:matcattang-dnb2:canho-bancong:canho-kinh:canho-bep:canho-tuong:canho-danhmucthietbi:hoboi-dnb1:hoboi-dnb2"/>
+    <file name="museutils.js" crc="340535759" ref="index:ttdu-vitri:ttda-dnb1:ttda-dnb2:ttda-dnb3:hdsd:tongquan-sanvandong:tongquan-benhvien:tongquan-truonghoc:tongquan-tttm:tongquan-duan-x:matcattang-dnb1:matcattang-dnb2:canho-bancong:canho-kinh:canho-bep:canho-tuong:canho-danhmucthietbi:hoboi-dnb1:hoboi-dnb2"/>
+    <file name="whatinput.js" crc="86476730" ref="index:ttdu-vitri:ttda-dnb1:ttda-dnb2:ttda-dnb3:hdsd:tongquan-sanvandong:tongquan-benhvien:tongquan-truonghoc:tongquan-tttm:tongquan-duan-x:matcattang-dnb1:matcattang-dnb2:canho-bancong:canho-kinh:canho-bep:canho-tuong:canho-danhmucthietbi:hoboi-dnb1:hoboi-dnb2"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:ttdu-vitri:ttda-dnb1:ttda-dnb2:ttda-dnb3:hdsd:tongquan-sanvandong:tongquan-benhvien:tongquan-truonghoc:tongquan-tttm:tongquan-duan-x:matcattang-dnb1:matcattang-dnb2:canho-bancong:canho-kinh:canho-bep:canho-tuong:canho-danhmucthietbi:hoboi-dnb1:hoboi-dnb2"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:ttdu-vitri:ttda-dnb1:ttda-dnb2:ttda-dnb3:hdsd:tongquan-sanvandong:tongquan-benhvien:tongquan-truonghoc:tongquan-tttm:tongquan-duan-x:matcattang-dnb1:matcattang-dnb2:canho-bancong:canho-kinh:canho-bep:canho-tuong:canho-danhmucthietbi:hoboi-dnb1:hoboi-dnb2"/>
+    <file name="require.js" crc="7928878" ref="index:ttdu-vitri:ttda-dnb1:ttda-dnb2:ttda-dnb3:hdsd:tongquan-sanvandong:tongquan-benhvien:tongquan-truonghoc:tongquan-tttm:tongquan-duan-x:matcattang-dnb1:matcattang-dnb2:canho-bancong:canho-kinh:canho-bep:canho-tuong:canho-danhmucthietbi:hoboi-dnb1:hoboi-dnb2"/>
+  </folder>
+  <folder name="images">
+    <file name="hinhanhtailieu1.jpg" crc="4133462605" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hinhanhvitri1.jpg" crc="4045172811" seo="true" ref="ttdu-vitri">
+      <caption webpage="ttdu-vitri" alt=""/>
+    </file>
+    <file name="tongquan-dnb-1.jpg" crc="38303440" seo="true" ref="ttda-dnb1">
+      <caption webpage="ttda-dnb1" alt=""/>
+    </file>
+    <file name="tongquan-dnb-2.jpg" crc="505265082" seo="true" ref="ttda-dnb2">
+      <caption webpage="ttda-dnb2" alt=""/>
+    </file>
+    <file name="tongquan-dnb-3.jpg" crc="272513429" seo="true" ref="ttda-dnb3">
+      <caption webpage="ttda-dnb3" alt=""/>
+    </file>
+    <file name="gioithieu2.jpg" crc="4045326107" seo="true" ref="hdsd">
+      <caption webpage="hdsd" alt=""/>
+    </file>
+    <file name="gioithieu1.jpg" crc="470354787" seo="true" ref="hdsd">
+      <caption webpage="hdsd" alt=""/>
+    </file>
+    <file name="sanvandong.jpg" crc="3900784893" seo="true" ref="tongquan-sanvandong">
+      <caption webpage="tongquan-sanvandong" alt=""/>
+    </file>
+    <file name="benhvien1.jpg" crc="4203603745" seo="true" ref="tongquan-benhvien">
+      <caption webpage="tongquan-benhvien" alt=""/>
+    </file>
+    <file name="benhvien2.jpg" crc="191439192" seo="true" ref="tongquan-benhvien">
+      <caption webpage="tongquan-benhvien" alt=""/>
+    </file>
+    <file name="truonghoc1.jpg" crc="421406486" seo="true" ref="tongquan-truonghoc">
+      <caption webpage="tongquan-truonghoc" alt=""/>
+    </file>
+    <file name="truonghoc2.jpg" crc="41620491" seo="true" ref="tongquan-truonghoc">
+      <caption webpage="tongquan-truonghoc" alt=""/>
+    </file>
+    <file name="trungtamthuongmai1.jpg" crc="3899013936" seo="true" ref="tongquan-tttm">
+      <caption webpage="tongquan-tttm" alt=""/>
+    </file>
+    <file name="trungtamthuongmai2.jpg" crc="4198252549" seo="true" ref="tongquan-tttm">
+      <caption webpage="tongquan-tttm" alt=""/>
+    </file>
+    <file name="hanhlan-dnb1.jpg" crc="3977936033" seo="true" ref="matcattang-dnb1">
+      <caption webpage="matcattang-dnb1" alt=""/>
+    </file>
+    <file name="hanhlan-dnb2.jpg" crc="480309852" seo="true" ref="matcattang-dnb2">
+      <caption webpage="matcattang-dnb2" alt=""/>
+    </file>
+    <file name="bancong.jpg" crc="4139783816" seo="true" ref="canho-bancong">
+      <caption webpage="canho-bancong" alt=""/>
+    </file>
+    <file name="kinh.jpg" crc="4157862855" seo="true" ref="canho-kinh">
+      <caption webpage="canho-kinh" alt=""/>
+    </file>
+    <file name="bep.jpg" crc="222840005" seo="true" ref="canho-bep">
+      <caption webpage="canho-bep" alt=""/>
+    </file>
+    <file name="tuong.jpg" crc="63231417" seo="true" ref="canho-tuong">
+      <caption webpage="canho-tuong" alt=""/>
+    </file>
+    <file name="0001.jpg" crc="3778130837" seo="true" ref="canho-danhmucthietbi">
+      <caption webpage="canho-danhmucthietbi" alt=""/>
+    </file>
+    <file name="0002.jpg" crc="363226217" seo="true" ref="canho-danhmucthietbi">
+      <caption webpage="canho-danhmucthietbi" alt=""/>
+    </file>
+    <file name="0003.jpg" crc="296328415" seo="true" ref="canho-danhmucthietbi">
+      <caption webpage="canho-danhmucthietbi" alt=""/>
+    </file>
+    <file name="0004.jpg" crc="433636456" seo="true" ref="canho-danhmucthietbi">
+      <caption webpage="canho-danhmucthietbi" alt=""/>
+    </file>
+    <file name="0005.jpg" crc="191795089" seo="true" ref="canho-danhmucthietbi">
+      <caption webpage="canho-danhmucthietbi" alt=""/>
+    </file>
+    <file name="0006.jpg" crc="263887997" seo="true" ref="canho-danhmucthietbi">
+      <caption webpage="canho-danhmucthietbi" alt=""/>
+    </file>
+    <file name="0007.jpg" crc="3890614422" seo="true" ref="canho-danhmucthietbi">
+      <caption webpage="canho-danhmucthietbi" alt=""/>
+    </file>
+    <file name="0008.jpg" crc="8851179" seo="true" ref="canho-danhmucthietbi">
+      <caption webpage="canho-danhmucthietbi" alt=""/>
+    </file>
+    <file name="0009.jpg" crc="12445381" seo="true" ref="canho-danhmucthietbi">
+      <caption webpage="canho-danhmucthietbi" alt=""/>
+    </file>
+    <file name="0010.jpg" crc="4036543155" seo="true" ref="canho-danhmucthietbi">
+      <caption webpage="canho-danhmucthietbi" alt=""/>
+    </file>
+    <file name="hoboi-dnb1.jpg" crc="3906548351" seo="true" ref="hoboi-dnb1">
+      <caption webpage="hoboi-dnb1" alt=""/>
+    </file>
+    <file name="hoboi-dnt2.jpg" crc="3882606535" seo="true" ref="hoboi-dnb2">
+      <caption webpage="hoboi-dnb2" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="410100789" seo="true" mt="1645104060508" redirect="true"/>
+  <file name="ttdu-vitri.html" crc="4053853865" seo="true" mt="1645104060508" redirect="true"/>
+  <file name="ttda-dnb1.html" crc="43365699" seo="true" mt="1645104060508" redirect="true"/>
+  <file name="ttda-dnb2.html" crc="3870278637" seo="true" mt="1645104246584" redirect="true"/>
+  <file name="ttda-dnb3.html" crc="4257749300" seo="true" mt="1645104439844" redirect="true"/>
+  <file name="hdsd.html" crc="456181364" seo="true" mt="1645105889476" redirect="true"/>
+  <file name="tongquan-sanvandong.html" crc="438686222" seo="true" mt="1645111422689" redirect="true"/>
+  <file name="tongquan-benhvien.html" crc="4230369821" seo="true" mt="1645111973066" redirect="true"/>
+  <file name="tongquan-truonghoc.html" crc="4187552924" seo="true" mt="1645112228809" redirect="true"/>
+  <file name="tongquan-tttm.html" crc="437380855" seo="true" mt="1645112371812" redirect="true"/>
+  <file name="tongquan-duan-x.html" crc="519704020" seo="true" mt="1645107311747" redirect="true"/>
+  <file name="matcattang-dnb1.html" crc="4181850881" seo="true" mt="1645113410020" redirect="true"/>
+  <file name="matcattang-dnb2.html" crc="3923841625" seo="true" mt="1645113474984" redirect="true"/>
+  <file name="canho-bancong.html" crc="4165721664" seo="true" mt="1645114010446" redirect="true"/>
+  <file name="canho-kinh.html" crc="417025670" seo="true" mt="1645114094702" redirect="true"/>
+  <file name="canho-bep.html" crc="3817296544" seo="true" mt="1645114211049" redirect="true"/>
+  <file name="canho-tuong.html" crc="464948369" seo="true" mt="1645114272269" redirect="true"/>
+  <file name="canho-danhmucthietbi.html" crc="4124719461" seo="true" mt="1645114737929" redirect="true"/>
+  <file name="hoboi-dnb1.html" crc="3872462995" seo="true" mt="1645139912805" redirect="true"/>
+  <file name="hoboi-dnb2.html" crc="3851209984" seo="true" mt="1645139985265" redirect="true"/>
+</manifest>

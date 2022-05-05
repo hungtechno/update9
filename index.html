@@ -1,0 +1,65 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width"><link type="text/css" rel="stylesheet" href="index.min.css?v=2022"><style>
+.btnclosefullscreen {
+  padding: 5px;
+  font-size: 14px;
+  position:absolute;
+  left:0;
+  bottom:0;
+  background-color: yellow;
+   
+ }
+ .btnopenfullscreen {
+  padding: 5px;
+  font-size: 14px;
+  position:absolute;
+  left:0;
+  bottom:0;
+  background-color: yellow;
+ 
+}
+</style>
+</head><body><body style="margin:0px;padding:0px;overflow:hidden"><iframe src="./TOANCANHLAMLAIv4.html" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" scrolling="no" allowfullscreen></iframe></body><!-- Trigger/Open The Modal --><div class="hienvideochung" id="hienvideochung">LOGO<br>DỰ ÁN</div><!-- The Modal --><div id="myModal" class="modal1"><!-- Modal content --><div class="modal1-content"><span class="close1">TẮT VIDEO</span><p style="text-align: center;">SA BÀN ẢO SP LOADING...<br>Video giới thiệu dự án X</p><div id="player"></div><div><iframe id="clipmodal" src="https://www.youtube-nocookie.com/embed/AnWPflRP74w" style="height:65vh;width:81vw;position: absolute;margin: 0 auto;display: block;" ></iframe></div></div></div><!-- link js play video --><script type="text/javascript" src="index.min.js?v=2022"></script>
+	<div id="closefullscreen" style="display:none" >
+<button onclick="closeFullscreen();" class="btnclosefullscreen" >Thu nhỏ</button>
+</div>
+<div id="openfullscreen" >
+<button onclick="openFullscreen();" class="btnopenfullscreen">Toàn màn hình</button>
+</div>
+<script>
+var elem = document.documentElement;
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+   openfullscreen.style.display = "none";
+   closefullscreen.style.display = "block";
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+	  openfullscreen.style.display = "none";
+   closefullscreen.style.display = "block";
+  
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+	  openfullscreen.style.display = "none";
+   closefullscreen.style.display = "block";
+   
+  }
+  
+}
+
+function closeFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+   openfullscreen.style.display = "block";
+   closefullscreen.style.display = "none"; 
+  } else if (document.webkitExitFullscreen) { /* Safari */
+    document.webkitExitFullscreen();
+	  openfullscreen.style.display = "block";
+   closefullscreen.style.display = "none"; 
+  } else if (document.msExitFullscreen) { /* IE11 */
+    document.msExitFullscreen();
+	 openfullscreen.style.display = "block";
+   closefullscreen.style.display = "none"; 
+  }
+}
+</script>
+</body></html>
